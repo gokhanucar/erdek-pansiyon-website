@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<title>İletişim &amp; Rezervasyon | Telefon ve Ulaşım Bilgileri</title>
+	<link rel="shortcut icon" href="images/favicon.ico"/>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Erdek ve Ocaklar tatil beldesi hakkında bilmeniz gereken herşey. Güncel 
+	haberler ve etkinlikler, apart pansiyonlarda uygun konaklama fırsatları, ulaşım ve gezi rehberi."/>
+	<meta name="keywords" content="erdek, ocaklar, apart, pansiyon, konaklama, kiralık, yazlık, ulaşım"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_responsive.css">
+        <link rel="stylesheet" type="text/css" href="styles/jquery-ui.css">  
+        <link rel="stylesheet" type="text/css" href="styles/jquery-ui.structure.css">
+        <link  rel="stylesheet" type="text/css" href="styles/jquery-ui.theme.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/carouFredSel.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <script>
+            $( function() {
+              var icons = {
+                header: "ui-icon-circle-arrow-e",
+                activeHeader: "ui-icon-circle-arrow-s"
+              };
+              $( "#accordion" ).accordion({
+                icons: icons
+              });
+              $( "#toggle" ).button().on( "click", function() {
+                if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+                  $( "#accordion" ).accordion( "option", "icons", null );
+                } else {
+                  $( "#accordion" ).accordion( "option", "icons", icons );
+                }
+              });
+            } );
+        </script>
+        
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<a href="index.html" title="Berk Villa"><img src="images/logo.png" alt="Berk Villa" class="logo"></a>
+			<a href="#" class="menu_icon" id="menu_icon"></a>
+			<nav id="nav_menu">
+				<ul>
+					<li><a href="index.html">Ana Sayfa</a></li>
+					<li><a href="erdek.html">Erdek</a></li>
+					<li><a href="ocaklar-beldesi.html">Ocaklar</a></li>
+					<li><a href="resim-galeri.html">Galeri</a></li>
+					<li><a href="berkvilla-apart.html">Dairelerimiz</a></li>
+					<li><a href="haberler-etkinlikler.html">Haberler</a></li>
+					<li><a href="iletisim.html" class="current">İletişim</a></li>
+				</ul>
+			</nav>
+
+			<ul class="social">
+				<li><a class="fb" href="#"></a></li>
+				<li><a class="twitter" href="#"></a></li>
+				<li><a class="gplus" href="#"></a></li>
+			</ul>
+		</div>
+	</header>
+    
+        <section id="iletisim">
+            <section class="cta">
+                    <div id="accordion">
+                        <h3>Ulaşım</h3>
+                        <div>
+                          <p>İstanbul'dan İdo Yenikapı İskelesi'ni ya da İdo Bostancı İskelesi'ni 
+                              kullanarak Yenikapı - Bandırma seferleri yapan feribotlar ile yaklaşık 
+                              iki saatte Bandırma'ya ulaşabilirsiniz. Deniz ulaşımının haricinde otobüs 
+                              firmalarının da Erdek ve Bandırma'ya günlük seferleri mevcuttur. Bandırma 
+                              İdo iskelesinin yanından kalkan minibüsler ile Erdek'e ulaşım yaklaşık 
+                              yarım saat sürmektedir. Erdek garajından Ocaklar'a minibüs ile 10 dakikada
+                              ulaşılmaktadır. Özellikle yaz sezonunda minibüs seferleri sıklıkla 
+                              yapılmakta.
+                          </p>
+                        </div>
+                        <h3>Feribot - Deniz Otobüsü</h3>
+                        <div>
+                           <p>
+                               İstanbul'dan ulaşım için en hızlı ve uygun seçeneklerden biri olarak
+                               İdo seferleri ile Bandırma'ya yolculuk yapabilirsiniz. Yenikapı İdo iskelesinden
+                               araçlı ya da araçsız yolcular için günlük feribot seferleri yapılmaktadır.
+                               İdo Bostancı iskelesinden de araçsız yolcular için deniz otobüsü seferleri mevcuttur.
+                               Seferler yaklaşık 2 saat sürmektedir.
+                           </p>
+                           <p> 
+                               <a href="http://www.ido.com.tr/" target="_blank">
+                                   İdo Yaz tarifesi ve seferler hakkında bilgi almak için tıklayınız.</a>
+                           </p>
+                        </div>
+                        <h3>Otobüs Seferleri</h3>
+                        <div>
+                          <p>Bandırma ve Erdek'e günlük seferler yapan otobüs firmaları ile kara yolcuğu yaparak
+                          ulaşabilirsiniz.</p>
+                          <ul>
+                              <li><a href="https://www.kamilkoc.com.tr/" target="_blank">
+                                      Kamil Koç seferleri için tıklayınız.</a></li>
+                            <li><a href="https://www.metroturizm.com.tr/" target="_blank">
+                                    Metro Otobüs seferleri için tıklayınız.</a></li>
+                          </ul>
+                        </div>
+                     </div>
+            </section>
+            <aside>
+                 <h2>Bize Ulaşın</h2>
+                 <p>Bilgi ve Rezervasyon için:</p>
+                 <p><a href="tel:+905325922283">Telefon: 0532 592 2283</a></p>
+                 <p>Yaz sezonlarında yaşanan yoğunluktan ötürü rezervasyonlarınızı önceden 
+                     yapmanızı tavsiye ederiz.</p>
+                 
+                 <h2 id="hide">Google Maps</h2>
+                 <div id="map"></div>
+                 <script>
+                    function initMap() {
+                      var uluru = {lat: 40.452021, lng: 27.753012};
+                      var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 9,
+                        center: uluru
+                      });
+                      var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                      });
+                    }
+                 </script>
+                 <script async defer
+                        
+                    src= //google geographical Api  >
+                 </script>
+            </aside>
+        </section>
+        
+       
+
+         <footer>
+                 <img src="images/logo_footer.png" alt="Berk Villa">
+                 <p>Rezervasyon ve bilgi için TEL: <a href="tel:905325922283">0532 592 2283</a></p>
+                 <p class="rights">BerkVilla 2017</p>
+         </footer>
+                               
+</body>
+</html>

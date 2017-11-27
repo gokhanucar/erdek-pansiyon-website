@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Resim Galerisi | Erdek, Ocaklar ve Daireler</title>
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Erdek ve Ocaklar tatil beldesi hakkında bilmeniz gereken herşey. Güncel 
+    haberler ve etkinlikler, apart pansiyonlarda uygun konaklama fırsatları, ulaşım ve gezi rehberi."/>
+    <meta name="keywords" content="erdek, ocaklar, apart, pansiyon, konaklama, kiralık, yazlık, ulaşım"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/galeri.css">
+    <link rel="stylesheet" type="text/css" href="styles/photoswipe.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/default-skin/default-skin.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/carouFredSel.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/photoswipe.min.js"></script>
+    <script type="text/javascript" src="js/photoswipe-ui-default.min.js"></script>
+    <script type="text/javascript" src="js/galeri.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <a href="index.html" title="Berk Villa"><img src="images/logo.png" alt="Berk Villa" class="logo"></a>
+            <a href="#" class="menu_icon" id="menu_icon"></a>
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="erdek.html">Erdek</a></li>
+                    <li><a href="ocaklar-beldesi.html">Ocaklar</a></li>
+                    <li><a href="resim-galeri.html" class="current">Galeri</a></li>
+                    <li><a href="berkvilla-apart.html">Dairelerimiz</a></li>
+                    <li><a href="haberler-etkinlikler.html">Haberler</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+
+            <ul class="social">
+                <li><a class="fb" href="#"></a></li>
+                <li><a class="twitter" href="#"></a></li>
+                <li><a class="gplus" href="#"></a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section class="features">
+        <div class="wrapper">
+            <div class="feature">
+		<div class="details_exp">
+                    <h3>Bahçe Kat Daire Resimleri</h3>
+                    <button id="btn_01"><img src="images/galeri/giris-kat-open.jpg" 
+                                             alt="Bahçe Kat Müstakil Daire"></button>
+		</div>
+            </div>
+            <div class="feature">
+                <div class="details_exp">
+                    <button id="btn_02"><img src="images/galeri/teras-kat-open.jpg" 
+                                             alt="Teraslı Müstakil Apart Daire"></button>
+		</div>
+            </div>
+            <div class="feature">
+                <div class="details_exp">
+                    <button id="btn_03"><img src="images/galeri/orta-kat-open.jpg" 
+                                             alt="Stüdyo Apart Daireler"></button>
+                </div>
+            </div>
+            <div class="feature">
+		<div class="details_exp">
+                    <button id="btn_04"><img src="images/galeri/kirmizi-ev-open.jpg" 
+                                             alt="Günlük Kiralık Bahçe Katı Daire"></button>
+		</div>
+            </div>
+            <div class="feature">
+                <div class="details_exp">
+                    <button id="btn_05"><img src="images/galeri/ocaklar-open.jpg" 
+                                             alt="Erdek Ocaklar Tatil Beldesi"></button>				
+		</div>
+            </div>				
+        </div>
+    </section>
+	
+	<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <script>
+            document.getElementById('btn_01').onclick = openPhotoSwipe_zemin_kat;
+            document.getElementById('btn_02').onclick = openPhotoSwipe_teras_kat;
+            document.getElementById('btn_03').onclick = openPhotoSwipe_orta_kat;
+            document.getElementById('btn_04').onclick = openPhotoSwipe_kirmizi_ev;
+            document.getElementById('btn_05').onclick = openPhotoSwipe_ocaklar;
+	</script>
+
+	<footer>
+		<img src="images/logo_footer.png" alt="Berk Villa">
+		<p>Rezervasyon ve bilgi için TEL: <a href="tel:905325922283">0532 592 2283</a></p>
+		<p class="rights">BerkVilla 2017</p>
+	</footer>
+</body>
+</html>
